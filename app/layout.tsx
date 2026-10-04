@@ -19,6 +19,8 @@ const literata = Literata({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://html-in-canvas.vittoretrivi.dev"),
+  alternates: { canonical: "./" },
   title: "HTML in Canvas Demo",
   description: `A quick look at the HTML-in-Canvas proposal, how it works, and what it enables with a few practical demos.`,
 };
